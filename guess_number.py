@@ -2,6 +2,7 @@ from random import randint
 number = randint(1, 100)
 print('Угадай число от 1 до 100')
 #НАписала
+#еще написала
 while True:
     if p_number:= int(input()) < number:
         print('Загаданное число больше.')
